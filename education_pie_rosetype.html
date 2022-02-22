@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>学历要求玫瑰图</title>
+    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="w">
+        <div class="nav">
+            <div class="nav_left">
+                <p>S T A R R Y S K Y</p>
+            </div>
+            <div class="nav_right">
+                <span><a href="index.html">首页</a></span>
+                <span><a href="cy.html">词云</a></span>
+                <span><a href="position_pie_base.html">岗位分析</a></span>
+                <span><a href="funnel_test.html">工作经验分析</a></span>
+                <span><a href="education_pie_rosetype.html">学历要求分析</a></span>
+            </div>
+        </div>
+
+        <div id="24b0960d89e74b38bb27d52d02e7322f" class="chart-container"
+            style="width:1000px; height:450px;background-color: #fff;"></div>
+    </div>
+    <script>
+        var chart_24b0960d89e74b38bb27d52d02e7322f = echarts.init(
+            document.getElementById('24b0960d89e74b38bb27d52d02e7322f'), 'white', { renderer: 'canvas' });
+        var option_24b0960d89e74b38bb27d52d02e7322f = {
+            "animation": true,
+            "animationThreshold": 2000,
+            "animationDuration": 1000,
+            "animationEasing": "cubicOut",
+            "animationDelay": 0,
+            "animationDurationUpdate": 300,
+            "animationEasingUpdate": "cubicOut",
+            "animationDelayUpdate": 0,
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ],
+            "series": [
+                {
+                    "type": "pie",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "\u7ecf\u9a8c\u4e0d\u9650",
+                            "value": 75
+                        },
+                        {
+                            "name": "\u7ecf\u9a8c1-3\u5e74",
+                            "value": 123
+                        },
+                        {
+                            "name": "\u7ecf\u9a8c10\u5e74\u4ee5\u4e0a",
+                            "value": 8
+                        },
+                        {
+                            "name": "\u7ecf\u9a8c3-5\u5e74",
+                            "value": 302
+                        },
+                        {
+                            "name": "\u7ecf\u9a8c5-10\u5e74",
+                            "value": 155
+                        },
+                        {
+                            "name": "\u7ecf\u9a8c\u5728\u6821",
+                            "value": 89
+                        },
+                        {
+                            "name": "\u7ecf\u9a8c1\u5e74\u4ee5\u4e0b",
+                            "value": 3
+                        }
+                    ],
+                    "radius": [
+                        "25%",
+                        "70%"
+                    ],
+                    "center": [
+                        "50%",
+                        "50%"
+                    ],
+                    "roseType": "radius",
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    }
+                }
+            ],
+            "legend": [
+                {
+                    "data": [
+                        "\u7ecf\u9a8c\u4e0d\u9650",
+                        "\u7ecf\u9a8c1-3\u5e74",
+                        "\u7ecf\u9a8c10\u5e74\u4ee5\u4e0a",
+                        "\u7ecf\u9a8c3-5\u5e74",
+                        "\u7ecf\u9a8c5-10\u5e74",
+                        "\u7ecf\u9a8c\u5728\u6821",
+                        "\u7ecf\u9a8c1\u5e74\u4ee5\u4e0b"
+                    ],
+                    "selected": {},
+                    "show": true,
+                    "left": "10%",
+                    "top": "30%",
+                    "orient": "vertical",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "title": [
+                {
+                    "text": "\u5b66\u5386\u8981\u6c42\u73ab\u7470\u56fe",
+                    "left": "43%",
+                    "top": "2%",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ]
+        };
+        chart_24b0960d89e74b38bb27d52d02e7322f.setOption(option_24b0960d89e74b38bb27d52d02e7322f);
+    </script>
+
+
+
+</body>
+
+</html>

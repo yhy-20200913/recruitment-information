@@ -1,0 +1,32 @@
+
+.footer {
+    height: 320px;
+    margin: 0 20px;
+    padding: 0 10px;
+    background-color: #f5f9fc;
+    /* background-color: #000; */
+}
+
+.footer_left {
+    float: left;
+    padding-top: 10px;
+    /* margin-top: 10px; */
+    /* background-color: red; */
+}
+
+.footer_right {
+    float: right;
+    padding-top: 10px;
+    /* margin-top: 10px; */
+    /* background-color: red; */
+}
+
+.footer_left img {
+    height: 290px;
+    width: 420px;
+}
+
+.footer_right img {
+    height: 290px;
+    width: 420px;
+}
